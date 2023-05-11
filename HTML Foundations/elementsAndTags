@@ -1,0 +1,10 @@
+HTML page -> pieces of content wrapped in opening and closing HTML tags
+Opening tag: keyword in <>
+	Ex: <p> == paragraph tag
+Closing tag has a '/' before keyword
+
+<p>Some baller content</p>
+
+Some HTML elements do not have closing tags -> "self closing tags" or "empty elements
+	Don't wrap around content
+Lots of different predefined tags
