@@ -1,0 +1,40 @@
+HTML files end in .html
+ALWAYS NAME HOMEPAGE "index.html"
+	web servers look for index.html by default
+
+DOCTYPE
+All html pages start with doctype declaration
+	<!DOCTYPE html> for html5
+
+HTML Element
+<html> element => root element of the document. All other elements descend from it
+What is the lang attribute?
+	Specifies the language of text content in element
+
+Head Element
+Important meta-info about webpage goes here. NO element that displays content on webpage allowed.
+The Charset Meta Element
+	Always have meta tag for the charset encoding of the webpage in head element.
+	Ensures webpage displays special symbols and chars from different languages correctly 
+	in browser.
+	<meta charset = "utf-8">
+Title Element
+	What appears in brower's tab
+	If absent, tab name is "index.html"
+	<title>My First Webpage</title?
+
+Body Element
+	All content displayed to the user will go here
+	Always below head element
+	<body> </body>
+
+
+Viewing HTML Files in the Browser
+Options:
+1) Drag and drop HTML file from text editor into address bar of your browser
+2) Double click HTML file in file system. OPens in default file system.
+3) Terminal
+	navigate to dir with file and type google-chrome index.html
+
+VSCode Shortcut
+Enter ! on firstline and vsc brings up multiple options
