@@ -1,0 +1,28 @@
+Paragraphs
+	When browser encounters new lines, compresses them into single space
+	Multiple paragraphs need to have individual <p></p> tags
+
+Headings
+	Text displayed larger and bolder than others
+	<h1> through <h6> == most important through least important
+	<h1> used for heading overall page, lower headings for smaller sections
+
+Strong Element
+	<strong> </strong> makes text bold
+	Can be used in combonation with other text elements like this:
+		<p>The rest of these words are not <strong>bold</strong> because they weren't wrapped in strong tags</p>
+
+En Element
+	<em> </em> makes wrapped text italic
+	Can be used in combonaiton with other text elements like strong
+		See example above
+
+Nesting & Indentation
+	Elements within other elements
+	If inside another element => child of element nested in (parent)
+	Indentation used to make level of nesting clear & readable for people
+
+Comments
+	Allow us to comment on our code
+	Not displayed in webpage
+	<!-- Comment goes here -->
