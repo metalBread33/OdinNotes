@@ -1,0 +1,30 @@
+Anchor elements
+	Create link in HTML => need anchor element
+	HTML attribute gives additional info to element
+		Name and value
+	For anchors, need to add href attribute
+	Ex: <a href="https://www.theodinproject.com/about">click me</a>
+	If href present, text looks like a link
+	Can make href to any kind of resource on the internet
+
+Absolute vs Relative Links
+	Absolute: links to other websites on the internet
+		protocol://domain/path
+	Relative: liks that connect to pages within our own website
+	Do not include domain name
+	If files are not in the same directory, include path
+		./pages/about.html
+	
+
+Images
+	Use <img> element
+		Self enclosing, do not need closing tag
+	Need src atrribute
+
+Parent Directories
+	To go to a parent directory, use 2 dots in relative filepath
+		"../images/dogs.jpg">
+
+Alt attribute
+	Used to describe an image, used when image cannot be loaded
+	Also needed for images

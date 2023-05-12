@@ -1,0 +1,9 @@
+Unordered Lists
+	Order doesn't matter
+	<ul> element for list, list items are <li>
+	Items begin with bullet point
+
+Ordered Lists
+	Order matters
+	<ol> element for list, items are <li>
+	Items begin with number
