@@ -1,0 +1,11 @@
+Good Commits as a novice developer help stand out
+Can see what changes made and why
+Useful for comming back to a project after stepping away for a while
+
+Commit everytime there is a meaningful change in code
+
+Tips:
+	VSCode will allow you to easily make multi-line commit messages, easily see char length of each line and allow for spell check
+	Use active voice
+	Avoid vague commit messages like "saved"
+	Comit early and often
