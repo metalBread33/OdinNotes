@@ -1,0 +1,53 @@
+Introduction
+	CSS gives style to html pages
+
+Basic Syntax
+	Made up of various rules
+		Selector and ; separated list of declarations. 
+			Declarations made up property:value pair
+
+<div> is an empty container; better to use other tags like <h1> for projects in general
+
+Selectors
+	HTML elements that CSS rules apply
+
+Universal Selector
+	Selects all elements.
+		* {
+		  color: purple;
+		}
+
+Type Selectors
+	Selects all elements of a given type
+		h1 {
+		 color: white;
+		}
+
+Class Selectors
+	All elements in a given class with a attribtute.
+	<div class="alert">Blah blah blah </div>
+	.alert {
+		color: red;
+	}
+	Need period before class name, case sensitive
+	Class names are space-separated, use '-' for multi-word class names
+
+ID Selectors
+	All elements with matching id attirbute
+	<div id="title">Ha Ha</div>
+	#title {
+	background-color: red;
+	}
+	Use Ids spariningly, classes are often better
+		Elements can only have 1 id, ids can't be repeated on the smae page
+
+Grouping Selectors
+	Use comma seperated list
+	.read,
+	.unread {
+	declarations
+	}
+
+Chaining Selectors
+	Selectors can be chained together, do not use a space
+	.header#.otherthing
