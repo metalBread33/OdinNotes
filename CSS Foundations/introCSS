@@ -50,4 +50,29 @@ Grouping Selectors
 
 Chaining Selectors
 	Selectors can be chained together, do not use a space
-	.header#.otherthing
+	.header.otherthing
+	Can't chain more than one type selector
+	
+Descendant combinator
+	Combinators allow us to combine multiple selectors differently than either grouping or chaining
+	them, show relationship between the selectors.
+	Single space between selectors => descendant combinator.
+		Match elements if they have same ancestor
+	No limit to num of combinators
+
+Order Matters
+	When 2 selectors have same level of precedence, rule defined last has the most precedence
+
+Properties to get started with (will probably use all the time)
+	color: Sets color of text
+	background-color: sets background color of the element
+		Both accept actual names (red or transparent), HEX, RGB, and HSL, values
+	font-family: single value or ',' seperated list that detemine which font elements use
+		2 kinds: "font family name" ("Times New Roman") or generic family name (sans-serif)
+		If browser does not support a font, goes down list until it finds one
+	font-size: size of font; font-size: 22px
+	font-weight: boldness of font, takes key-words (font-weight: bold) or a number between 1-1000
+	text-align: align text horizontally in element; use common key words in processors (i.e. center)
+
+ 
+
