@@ -74,5 +74,23 @@ Properties to get started with (will probably use all the time)
 	font-weight: boldness of font, takes key-words (font-weight: bold) or a number between 1-1000
 	text-align: align text horizontally in element; use common key words in processors (i.e. center)
 
- 
+Image height and width
+	<img> element's height and width vales same as actual image file
+	If you want to keep porportions, use 'auto' keyword for one of them
 
+Adding CSS to HTML
+	External CSS (most common)
+		.css file seperate from html
+		Include link in <head> tag
+		<head>
+			<link rel="stylesheet" href="styles.css">
+		</head>
+		rel specifies relationship between HTML and CSS files
+	Internal CSS
+		Add CSS to HTML code itself with <style> tags (inside head)
+		Useful for adding unique styles to a single page
+	Inline CSS
+		Add CSS to a single element
+		<body>
+			<div style="color: white;"> </div>
+		</body>
