@@ -1,1 +1,15 @@
 The cascade determines which rules get applied to our HTML
+
+A CSS declaration that is more specifc will take precedence over less specific ones.
+	Inline styles have the highest specificty compared to selectors.
+	Each type of selector has its own specificty level that contributes to how specific a declarationis.
+	Specificity will only be taken into account when an element has multiple conflicting declarations targeting it.
+		Highest to lowest ID selector > Class selector > Type selector
+Non-conflicting declarations still applied.
+
+Inheritance
+	CSS propeties that when applied to an element are inherited by element's descendant
+		Rule does not need to be explicit for children
+	Usualy typography
+Rule order
+	All else fails, last rule defined gets applied.
